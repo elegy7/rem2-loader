@@ -1,0 +1,17 @@
+{
+  "name": "rem2-loader",
+  "version": "1.0.0",
+  "description": "from rem-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rem2-loader?scale=0.015&fix=2&pm=im"
+  ],
+  "author": "Elegy",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^0.2.7"
+  }
+}
