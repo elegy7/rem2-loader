@@ -13,5 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "loader-utils": "^0.2.7"
-  }
+  },
+  "homepage": "https://github.com/elegy7/rem2-loader"
+  
 }
