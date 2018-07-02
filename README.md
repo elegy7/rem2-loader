@@ -1,5 +1,6 @@
 # rem2-loader
 webpack rem2-loader
+copy from rem-loader
 
 ##how to use
   module: {

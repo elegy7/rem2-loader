@@ -1,14 +1,13 @@
 {
-  "name": "rem2-loader",
-  "version": "1.0.0",
-  "description": "from rem-loader",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Elegy"
   },
-  "author": "Elegy",
   "dependencies": {
-    "loader-utils": "^0.2.7"
+    "loader-utils": "^1.1.0"
   },
-  "homepage": "https://github.com/elegy7/rem2-loader"
+  "description": "from rem-loader",
+  "homepage": "https://github.com/elegy7/rem2-loader",
+  "main": "index.js",
+  "name": "rem2-loader",
+  "version": "1.0.1"
 }

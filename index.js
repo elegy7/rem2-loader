@@ -8,7 +8,7 @@ module.exports = function (source, map) {
   			pm: 'im',
   			scale: 0.015,
   			fix: 3
-  		}, this.query)
+  		}, query)
 	this.cacheable();
 	function convert(content){
 		var res = content;
