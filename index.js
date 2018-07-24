@@ -3,7 +3,7 @@
  */
 var loaderUtils = require('loader-utils')
 module.exports = function (source, map) {
-  	var query = loaderUtils.parseQuery(this.query),
+  	var query = this.query ? loaderUtils.parseQuery(this.query) : {},
   		opts = Object.assign({
   			pm: 'im',
   			scale: 0.015,
