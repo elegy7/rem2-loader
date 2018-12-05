@@ -5,9 +5,9 @@
   "dependencies": {
     "loader-utils": "^1.1.0"
   },
-  "description": "from rem-loader",
+  "description": "fork from rem-loader",
   "homepage": "https://github.com/elegy7/rem2-loader",
   "main": "index.js",
   "name": "rem2-loader",
-  "version": "1.0.2"
+  "version": "1.0.4"
 }

@@ -1,26 +1,22 @@
 # rem2-loader
 webpack rem2-loader
-copy from rem-loader
+fork from rem-loader
 
-##how to use
-  module: {
-    loaders: [
-      {
-        test: /\.less$/,
-        loader: 'style-loader!css-loader!less-loader!rem-loader?scale=0.015&fix=2&pm=im'
-      }
-    ]
-  }
-  
-eg.:
+## how to use
+    module: {
+        loaders: [{
+            test: /\.less$/,
+            loader: 'style!css!less!rem2?scale=0.0135&fix=2&pm=rpx'
+        }]
+    }
+##eg:
+#### less(write):
+    p {
+       width: 20rpx;
+   }
 
-less: 
-  p {
-    width: 20im;
-  }
+#### css(build):
 
-
-css:
-  p {
-    width: 0.427rem;
-  }
+    p {
+        width: 0.27rem;
+    }
