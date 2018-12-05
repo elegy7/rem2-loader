@@ -9,7 +9,7 @@ fork from rem-loader
             loader: 'style!css!less!rem2?scale=0.0135&fix=2&pm=rpx'
         }]
     }
-##eg:
+## eg:
 #### less(write):
     p {
        width: 20rpx;
